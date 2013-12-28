@@ -5,12 +5,14 @@
 	>
 	<SurfaceView
 		android:id="@+id/CameraSurface"
-		android:layout_width="320dp"
-		android:layout_height="180dp"
+		android:layout_alignParentTop="true"
+		android:layout_width="160dp"
+		android:layout_height="90dp"
 		/>
 	<SurfaceView
 		android:id="@+id/DecodeSurface"
-		android:layout_width="fill_parent"
-		android:layout_height="fill_parent"
+		android:layout_below="@id/CameraSurface"
+		android:layout_width="160dp"
+		android:layout_height="90dp"
 		/>
 </RelativeLayout>
